@@ -34,10 +34,10 @@ if (!isset($params['user']->guid)) {
         <input type="file" name="ossn_photo" />
     </div>
     <div id="ossn-wall-video" style="display:none;">
-        <a href="#">
+        <a href="https://www.youtube.com/upload" target="_blank">
           <i class="fa fa-youtube"></i>
         </a>
-        <a href="#">
+        <a href="https://vimeo.com/upload" target="_blank">
           <i class="fa fa-vimeo"></i>
         </a>
     </div>

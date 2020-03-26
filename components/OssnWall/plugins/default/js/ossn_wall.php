@@ -28,7 +28,7 @@ Ossn.RegisterStartupFunction(function() {
             $('#ossn-wall-photo').show();
             $('#ossn-wall-video').hide();
         });
-        $('.ossn-wall-container').find('.ossn-wall-photo').click(function() {
+        $('.ossn-wall-container').find('.ossn-wall-video').click(function() {
             $('#ossn-wall-friend').hide();
             $('#ossn-wall-location').hide();
             $('#ossn-wall-photo').hide();
