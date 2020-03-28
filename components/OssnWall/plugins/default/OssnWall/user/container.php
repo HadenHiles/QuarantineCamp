@@ -28,6 +28,14 @@
     <div id="ossn-wall-photo" style="display:none;">
         <input type="file" name="ossn_photo"/>
     </div>
+    <div id="ossn-wall-video" style="display:none;">
+        <a href="https://www.youtube.com/upload" target="_blank">
+          <i class="fa fa-youtube"></i>
+        </a>
+        <a href="https://vimeo.com/upload" target="_blank">
+          <i class="fa fa-vimeo"></i>
+        </a>
+    </div>
 </div>
 <div class="controls">
     <li class="ossn-wall-friend">

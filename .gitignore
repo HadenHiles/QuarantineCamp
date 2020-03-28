@@ -33,6 +33,9 @@ error_log
 !/components/OssnSounds
 !/components/OssnAutoPagination
 
+#don't ignore components created by haden
+!/components/DiscordTitanChat
+
 #do not ignore config files
 !/.scrutinizer.yml
 !/.travis.yml

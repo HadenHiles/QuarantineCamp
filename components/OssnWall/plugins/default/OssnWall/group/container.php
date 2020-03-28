@@ -9,7 +9,7 @@
  * @link      http://www.opensource-socialnetwork.com/licence
  */
  ossn_load_external_js('maps.google');
- ossn_load_external_js('jquery.tokeninput');   
+ ossn_load_external_js('jquery.tokeninput');
 ?>
 <div class="tabs-input">
     <div class="wall-tabs">
@@ -27,6 +27,14 @@
     <div id="ossn-wall-photo" style="display:none;">
         <input type="file" name="ossn_photo"/>
     </div>
+    <div id="ossn-wall-video" style="display:none;">
+        <a href="https://www.youtube.com/upload" target="_blank">
+          <i class="fa fa-youtube"></i>
+        </a>
+        <a href="https://vimeo.com/upload" target="_blank">
+          <i class="fa fa-vimeo"></i>
+        </a>
+    </div>
 </div>
 <div class="controls">
     <li class="ossn-wall-location">
@@ -37,7 +45,7 @@
     </li>
     <div style="float:right;">
         <input type="hidden" value="<?php echo $params['group']['group']->guid; ?>" name="wallowner"/>
-     	<div class="ossn-loading ossn-hidden"></div>     
+     	<div class="ossn-loading ossn-hidden"></div>
         <input class="btn btn-primary ossn-wall-post" type="submit" value="<?php echo ossn_print('post'); ?>"/>
     </div>
 </div>

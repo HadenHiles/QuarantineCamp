@@ -9,12 +9,12 @@
  * @link      http://www.opensource-socialnetwork.com/licence
  */
   ossn_load_external_js('places.min');
-  ossn_load_external_js('jquery.tokeninput'); 
+  ossn_load_external_js('jquery.tokeninput');
 ?>
 <div class="tabs-input">
     <div class="wall-tabs">
         <?php
-			echo ossn_view_menu('wall/container/group', 'wall/menus/container'); 
+			echo ossn_view_menu('wall/container/group', 'wall/menus/container');
 		?>
     </div>
 </div>
@@ -26,10 +26,18 @@
     <div id="ossn-wall-photo" style="display:none;">
         <input type="file" name="ossn_photo" />
     </div>
+    <div id="ossn-wall-video" style="display:none;">
+        <a href="https://www.youtube.com/upload" target="_blank">
+          <i class="fa fa-youtube"></i>
+        </a>
+        <a href="https://vimeo.com/upload" target="_blank">
+          <i class="fa fa-vimeo"></i>
+        </a>
+    </div>
     <div class="controls">
         <?php
-			echo ossn_view_menu('wall/container/controls/group', 'wall/menus/container_controls'); 
-		?>      
+			echo ossn_view_menu('wall/container/controls/group', 'wall/menus/container_controls');
+		?>
         <div style="float:right;">
             <div class="ossn-loading ossn-hidden"></div>
             <input class="btn btn-primary ossn-wall-post" type="submit" value="<?php echo ossn_print('post'); ?>" />

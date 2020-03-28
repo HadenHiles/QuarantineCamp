@@ -13,7 +13,7 @@ if (!isset($params['user']->guid)) {
     $params['user']->guid = '';
 }
  ossn_load_external_js('maps.google');
- ossn_load_external_js('jquery.tokeninput');  
+ ossn_load_external_js('jquery.tokeninput');
 ?>
 <div class="tabs-input">
     <div class="wall-tabs">
@@ -35,6 +35,14 @@ if (!isset($params['user']->guid)) {
     <div id="ossn-wall-photo" style="display:none;">
         <input type="file" name="ossn_photo"/>
     </div>
+    <div id="ossn-wall-video" style="display:none;">
+        <a href="https://www.youtube.com/upload" target="_blank">
+          <i class="fa fa-youtube"></i>
+        </a>
+        <a href="https://vimeo.com/upload" target="_blank">
+          <i class="fa fa-vimeo"></i>
+        </a>
+    </div>
 </div>
 <div class="controls">
     <li class="ossn-wall-friend">
@@ -46,6 +54,9 @@ if (!isset($params['user']->guid)) {
     <li class="ossn-wall-photo">
        <i class="fa fa-picture-o"></i>
     </li>
+    <li class="ossn-wall-video">
+      <i class="fa fa-film"></i>
+    </li>
 	<div style="float:right;">
     	<div class="ossn-loading ossn-hidden"></div>
    		 <input class="btn btn-primary ossn-wall-post" type="submit" value="<?php echo ossn_print('post'); ?>"/>
@@ -56,4 +67,3 @@ if (!isset($params['user']->guid)) {
 </div>
 <input type="hidden" value="<?php echo $params['user']->guid; ?>" name="wallowner"/>
 <input type="hidden" name="privacy" id="ossn-wall-privacy" value="<?php echo OSSN_PUBLIC; ?>"/>
-      

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component xmlns="http://www.opensource-socialnetwork.org/v/5.0">
+    <name>DiscordTitanChat</name>
+    <id>DiscordTitanChat</id>
+    <author>Haden Hiles</author>
+    <description>Adds a custom page to display a full width Titan Embed Discord chat iframe.</description>
+    <license>Open Source Social Network License (OSSN LICENSE)</license>
+    <author_url>https://www.softlab24.com/</author_url>
+    <license_url>http://www.opensource-socialnetwork.org/licence/</license_url>
+    <version>1.0</version>
+	<requires>
+		<type>ossn_version</type>
+		<version>5.0</version>
+	</requires>
+</component>
