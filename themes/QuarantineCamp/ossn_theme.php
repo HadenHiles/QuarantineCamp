@@ -65,7 +65,10 @@ function ossn_goblue_head(){
 	$head	 = array();
 
 	$head[]  = ossn_html_css(array(
-					'href' => '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
+					'href' => ossn_theme_url() . 'vendors/font-awesome/css/all.min.css'
+				));
+	$head[]  = ossn_html_css(array(
+					'href' => '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
 			  ));
 	$head[]  = ossn_html_css(array(
 					'href' =>  'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700'

@@ -56,7 +56,7 @@ if ($friends) {
  <li id="ossn-notif-messages">
 	 <a class="ossn-notifications-messages" href="/chat">
 		 <div class="ossn-icon ossn-icons-topbar-chat-new">
-			 <i class="fa fa-comments"></i>
+			 <i class="fa fa-comment"></i>
 		 </div>
 	 </a>
  </li>
