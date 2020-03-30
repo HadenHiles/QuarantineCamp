@@ -4,6 +4,10 @@
 body {
 	font-size: 14px;
 	background-color: #e9ebee;
+	background-image: url('/themes/QuarantineCamp/images/ice.png');
+	background-size: 100% auto;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 	font-family: font-family: 'Roboto', sans-serif;
 	height: 100%;
 }
