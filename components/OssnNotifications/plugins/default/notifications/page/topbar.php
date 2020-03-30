@@ -41,7 +41,7 @@ if ($friends) {
 <?php if($messages){ ?>
 <li id="ossn-notif-messages">
     <a onClick="Ossn.NotificationMessagesShow(this)" href="javascript:void(0);" class="ossn-notifications-messages" role="button" data-toggle="dropdown">
-    
+
                        <span>
                         <?php if ($count_messages > 0) { ?>
                             <span class="ossn-notification-container"><?php echo $count_messages; ?></span>
@@ -52,9 +52,16 @@ if ($friends) {
                         <?php } ?>
                        </span>
     </a></li>
-   <?php } ?> 
+   <?php } ?>
+ <li id="ossn-notif-messages">
+	 <a class="ossn-notifications-messages" href="/chat">
+		 <div class="ossn-icon ossn-icons-topbar-chat-new">
+			 <i class="fa fa-comments"></i>
+		 </div>
+	 </a>
+ </li>
 <li id="ossn-notif-notification">
-    <a href="javascript:void(0);" onClick="Ossn.NotificationShow(this)" class="ossn-notifications-notification" onClick="Ossn.NotificationShow(this)"role="button" data-toggle="dropdown"> 
+    <a href="javascript:void(0);" onClick="Ossn.NotificationShow(this)" class="ossn-notifications-notification" onClick="Ossn.NotificationShow(this)"role="button" data-toggle="dropdown">
                        <span>
                        <?php if ($count_notif > 0) { ?>
                            <span class="ossn-notification-container"><?php echo $count_notif; ?></span>
@@ -65,7 +72,7 @@ if ($friends) {
                        <?php } ?>
                        </span>
     </a>
- 
+
 </li>
   <div class="dropdown">
   		<div class="dropdown-menu multi-level dropmenu-topbar-icons ossn-notifications-box">
@@ -79,5 +86,5 @@ if ($friends) {
                     	<a href="#"><?php echo ossn_print('see:all'); ?></a>
                 	</div>
              </div>
-   		</div> 
+   		</div>
    </div>
