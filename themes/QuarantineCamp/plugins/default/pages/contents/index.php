@@ -20,15 +20,15 @@
 						'title' => ossn_print('site:login'),
 						'contents' => $contents,
 			));
-					
+
 				echo ossn_plugin_view('widget/view', array(
 					'title' => ossn_print('quarantinecamp:latest:members'),
-					'contents' => ossn_plugin_view('quarantinecamp/members_widget', array('count' => 20))
+					'contents' => ossn_plugin_view('flexi/members_widget', array('count' => 20))
 				));
 			?>
- 	   </div>   
+ 	   </div>
        <div class="col-md-5">
-    	<?php 
+    	<?php
 			$contents = ossn_view_form('signup', array(
         					'id' => 'ossn-home-signup',
         				'action' => ossn_site_url('action/user/register')
@@ -38,6 +38,6 @@
 						'title' => ossn_print('create:account'),
 						'contents' => $heading.$contents,
 			));
-			?>	       			
-       </div>     
-</div>	
+			?>
+       </div>
+</div>
