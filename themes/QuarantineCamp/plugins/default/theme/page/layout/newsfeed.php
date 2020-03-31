@@ -32,8 +32,9 @@ if(ossn_is_hook('newsfeed', "sidebar:right")) {
 						// echo $sidebar;
 						?>
             <script src='https://redditjs.com/subreddit.js' data-subreddit='HowToHockey'></script>
-						<a href="https://discord.gg/SkKaC9K" target="_blank" style="display: block; padding: 15px 10px 10px 40px;">
-							<img src="/themes/QuarantineCamp/images/discord.png" style="width: 100%; height: auto;" />
+						<a href="https://discord.gg/SkKaC9K" target="_blank" id="discordchatimage" style="display: block; padding: 15px 10px 10px 40px;">
+							<img src="/themes/QuarantineCamp/images/discord.png" class="normal" style="width: 100%; height: auto;" />
+							<img src="/themes/QuarantineCamp/images/discord-dark.png" class="dark" style="width: 100%; height: auto; display: none;" />
 						</a>
 				</div>
                 <?php } ?>

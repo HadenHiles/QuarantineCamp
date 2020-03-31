@@ -33,7 +33,7 @@ function ossn_goblue_theme_init(){
 
 	ossn_extend_view('ossn/admin/head', 'ossn_goblue_admin_head');
 	ossn_extend_view('ossn/site/head', 'ossn_goblue_head');
-    ossn_extend_view('js/opensource.socialnetwork', 'js/goblue');
+    ossn_extend_view('js/opensource.socialnetwork', 'js/quarantinecamp');
 
 	//Sanitizing of latest friends widget #6
 	if(ossn_isLoggedin()){
