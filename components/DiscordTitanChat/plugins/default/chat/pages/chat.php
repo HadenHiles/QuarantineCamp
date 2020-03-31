@@ -13,7 +13,7 @@
 <?php
  	echo ossn_plugin_view('widget/view', array(
 		'title' => ossn_print('com:ossn:chat'),
-		'contents' => '<iframe src="https://titanembeds.com/embed/693191624536358933?scrollbartheme=minimal&theme=BetterTitan&username=Rookie&userscalable=false" frameborder="0" id="discordchat" style="width: 100%; height: 1200px;"></iframe>',
+		'contents' => '<iframe src="https://titanembeds.com/embed/693191624536358933?scrollbartheme=minimal&theme=DiscordDark&username=Rookie&userscalable=false" frameborder="0" id="discordchat" style="width: 100%; height: 1200px;"></iframe>',
 	));
 ?>
 </div>
