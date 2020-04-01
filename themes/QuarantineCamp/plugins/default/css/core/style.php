@@ -1,7 +1,3 @@
-.btn-twitter {
- display: none !important;
-}
-
 #ossn-wall-video {
   padding: 5px;
   background: #fff;
