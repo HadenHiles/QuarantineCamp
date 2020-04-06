@@ -102,12 +102,12 @@ p {
 }
 
 .btn-primary {
-background-color: #c44444;
-    border-color: #ae3737;
+background-color: #D90A00;
+    border-color: #b30900;
 }
 .btn-primary:hover  {
-    background: #ae3737;
-		border-color: #ae3737;
+    background: #b30900;
+		border-color: #b30900;
 }
 
 a {
@@ -270,7 +270,7 @@ a {
 	position: relative;
     height: 48px;
     height: 70px;
-    background-color: #c44444;
+    background-color: #D90A00;
 }
 
 .topbar .fa {
@@ -336,7 +336,7 @@ a {
 .topbar-menu-right li:hover,
 .topbar-menu-left li:hover {
 	cursor: pointer;
-	    background-color: #ae3737;
+	    background-color: #b30900;
 }
 
 .topbar .right-side-nospace .topbar-menu-right {
@@ -2646,7 +2646,7 @@ footer .ossn-footer-menu a:last-child::after {
 	content: "\f07b" !important
 }
 .topbar-search input{
-    background-color: #ae3737;
+    background-color: #b30900;
     border: 0;
     padding: 10px;
     height: 70px;
