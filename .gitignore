@@ -35,6 +35,7 @@ error_log
 
 #don't ignore components created by haden
 !/components/DiscordTitanChat
+!/components/aboutuser
 
 #do not ignore config files
 !/.scrutinizer.yml
